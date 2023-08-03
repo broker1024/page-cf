@@ -6,8 +6,9 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
-const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+//const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
+//let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyIP = '211.72.35.110';
 
 //let proxyIP = 'cdn.anycast.eu.org';
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
